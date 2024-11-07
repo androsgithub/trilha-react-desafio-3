@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components'
+import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
   
@@ -11,4 +11,12 @@ export const GlobalStyle = createGlobalStyle`
     background-color: #1E192C;
     color: #FFFFFF;
   }
-`
+  button.navigate{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    &:hover{
+      filter: brightness(1.15);
+    }
+  }
+`;
